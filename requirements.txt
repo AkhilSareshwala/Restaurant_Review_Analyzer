@@ -1,0 +1,9 @@
+Flask
+pandas
+langchain
+langchain_google_genai
+langchain_community
+langchain_core
+python-dotenv
+gunicorn
+faiss-cpu

@@ -1,25 +1,17 @@
-# Restaurant Review Analyzer
+# 🍽️ Restaurant Review Analyzer AI
 
-![Review Classification Example](./images/s3.png)  
-*Example of review classification output*
+[🎥 Watch Demo Video](https://res.cloudinary.com/dijsakcjf/video/upload/v1758946988/Reviews_Demo_djjirh.mp4)
 
-## Overview
-A tool designed to analyze and extract insights from customer reviews using AI.
+An AI-powered Flask app that analyzes restaurant reviews, extracting themes, detecting complaints, classifying reviews, and enabling Q&A with RAG.
 
-## Features
-- **Review Upload**: Supports CSV files with a 'Review' column  
-  ![Upload Interface](./images/s1.png)
-- **Key Themes Identification**: Highlights common themes
-- **Complaint Tracking**:  
-  ![Complaints Table](./images/s2.png)
-- **Interactive Q&A**:  
-  ![Insights Assistant](./images/s4.png)
+## ⭐ Key Features
+- Upload and analyze review datasets (CSV)  
+- Extract recurring themes with examples  
+- Complaint detection (markdown table output)  
+- Review classification (Service, Food, Ambiance, etc.)  
+- Q&A with RAG using FAISS vector store  
 
-## Usage
-1. Upload your reviews CSV
-2. View automated analysis
-3. Ask specific questions (e.g., "How is the service?")
-
-## Limitations
-- Only processes English text
-
+## 🛠 Tech Stack
+- **Core:** Python, Flask, Pandas  
+- **AI:** LangChain, Google Gemini  
+- **Database:** FAISS Vector Store  
